@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
       }
 
       body {
+        color: ${theme.colors.grey.dark};
         font-family: ${theme.fonts.family.base};
         font-weight: ${theme.fonts.weight.black};
       }
